@@ -1,0 +1,20 @@
+{
+  "name": "Moovit O-33",
+  "short_name": "Moovit O-33",
+  "start_url": "https://moovitapp.com/tripplan/natal-1742/lines/o-33/32085789/7941525/pt-br?ref=2&poiType=line&abTest=V1-Lines-1749378838&sid=35518437&customerId=4908&af_sub8=%2Findex%2Fpt-br%2Ftransporte_p%25C3%25BAblico-line-o_33-Natal-1742-850392-32085789-0&af_sub9=Upcoming%20arrivals",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "icon-rs-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-rs-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
