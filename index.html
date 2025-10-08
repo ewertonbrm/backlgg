@@ -3,15 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Moovit O-33</title>
+  <title>Insta</title>
 
-  <!-- Manifesto -->
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#000000" />
 
-  <!-- Ícones -->
   <link rel="icon" href="icon-192x192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="icon-512x512.png" />
+
+  <style>
+    /* 1. Remove margens e preenchimentos padrão do body e html */
+    html, body {
+      margin: 0;
+      padding: 0;
+      /* 2. Define a altura da página como 100% da viewport */
+      height: 100%;
+    }
+
+    /* 3. Ativa o Flexbox no body */
+    body {
+      display: flex;
+      /* 4. Centraliza os itens horizontalmente (eixo principal) */
+      justify-content: center;
+      /* 5. Centraliza os itens verticalmente (eixo transversal) */
+      align-items: center;
+      /* Opcional: Estilo de fonte para melhor visualização */
+      font-family: sans-serif;
+      font-size: 1.2em;
+    }
+
+    /* Opcional: Centraliza o texto dentro do parágrafo, embora não seja estritamente necessário neste layout de Flexbox */
+    p {
+      text-align: center;
+    }
+  </style>
+
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js');
@@ -19,12 +45,12 @@
   </script>
   <script>
     setTimeout(() => {
-    window.location.href = "https://moovitapp.com/tripplan/natal-1742/lines/O_33/32085789/7941525/pt-br?ref=2&poiType=line&abTest=V1-Lines-1754996425&sid=5482231&customerId=4908&af_sub8=%2Findex%2Fpt-br%2Ftransporte_p%25C3%25BAblico-line-O_33-Natal-1742-850392-32085789-0&af_sub9=Upcoming%20arrivals";
+    window.location.href = "https://backloggd.com";
   }, 5000);
   </script>
 </head>
 <body>
-  <img src="icon-192x192.png" alt="Moovit Logo" class="logo">
-  <p>Carregando Moovit O-33...</p>
+  <img src="icon-192x192.png">
+  <p>Carregando Backloggd...</p>
 </body>
 </html>
